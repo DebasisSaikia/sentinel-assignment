@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+h1,h2,p,span,h3{
+  margin: unset !important;
+  padding: unset !important;
+  line-height: unset !important;
+}
