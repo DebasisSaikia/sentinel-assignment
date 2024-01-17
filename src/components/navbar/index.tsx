@@ -28,7 +28,9 @@ const Navbar = () => {
             <NavCTA>Start</NavCTA>
         </div>
       </CenterContainer>
-      <RightContainer></RightContainer>
+      <RightContainer>
+        <h1>Sentinel</h1>
+      </RightContainer>
     </NavbarContainer>
   );
 };
