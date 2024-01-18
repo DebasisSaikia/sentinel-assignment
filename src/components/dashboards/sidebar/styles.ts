@@ -5,6 +5,8 @@ const SidebarContainer = styled.div`
     border-radius: 12px;
     padding: 20px;
     height: 100vh;
+    position: sticky;
+    top: 10%;
     .ip-address, .country{
         display: flex;
         gap: 12px;
