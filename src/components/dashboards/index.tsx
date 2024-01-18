@@ -1,10 +1,11 @@
 import React from 'react'
 import { DashBoardViewContainer } from './styles'
+import Sidebar from './sidebar'
 
 const DashboardView = () => {
   return (
     <DashBoardViewContainer>
-      <h1>dd</h1>
+      <Sidebar/>
       <h2>ijim</h2>
     </DashBoardViewContainer>
   )
