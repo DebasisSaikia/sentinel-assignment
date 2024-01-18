@@ -20,6 +20,7 @@ min-height: 120px;
 display: flex;
 flex-direction: column;
 gap: 17px;
+border: 1px solid #1a1d2f;
 .text-value-container{
     display: flex;
     align-items: center;

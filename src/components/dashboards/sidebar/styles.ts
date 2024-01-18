@@ -16,8 +16,8 @@ const SidebarContainer = styled.div`
         }
     }
     .country{
-        border-bottom: 1px solid rgb(60,60,62);
-        border-top: 1px solid rgb(60,60,62);
+        border-bottom: 1px solid #1a1d2f;
+        border-top: 1px solid #1a1d2f;
     }
     .active-border{
         border: 1px solid #1f5d9b;
@@ -31,7 +31,7 @@ align-items: center;
 background-color: #10131c;
 padding: 16px;
 border-radius: 18px;
-border: 1px solid rgb(60,60,62);
+border: 1px solid #1a1d2f;
 margin-top: 20px;
 justify-content: space-between;
 cursor: pointer;
