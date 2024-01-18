@@ -5,7 +5,12 @@ import { ROUTES } from "@/routes";
 
 const PrimaryCTA = () => {
   return (
-    <Link href={ROUTES.dashboard}>
+    <Link
+      href={{
+        pathname: ROUTES.dashboard,
+        query: { dasboard_id: Math.random(), token: new Date().getTime() },
+      }}
+    >
       <PrimaryCTAcontainer>View Dashboard</PrimaryCTAcontainer>
     </Link>
   );
