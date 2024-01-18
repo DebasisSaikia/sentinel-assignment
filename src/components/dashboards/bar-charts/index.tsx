@@ -42,7 +42,12 @@ const BarChart = () => {
         options={{
           animation: { delay: 0.5 },
           scales: { y: { beginAtZero: false } },
-          datasets:{bar:{maxBarThickness: 20}}
+          datasets:{bar:{maxBarThickness: 20}},
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
         }}
       />
     </BarChartContainer>
