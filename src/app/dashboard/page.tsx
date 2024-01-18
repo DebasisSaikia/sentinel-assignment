@@ -1,4 +1,5 @@
 'use client'
+import DashboardView from '@/components/dashboards'
 import Navbar from '@/components/navbar'
 import React from 'react'
 import { styled } from 'styled-components'
@@ -18,6 +19,7 @@ const Dashboard = () => {
     <DasboardContainer>
       <InnerContainer>
         <Navbar/>
+        <DashboardView/>
       </InnerContainer>
     </DasboardContainer>
   )
