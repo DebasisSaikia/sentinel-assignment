@@ -12,6 +12,9 @@ const BarChartContainer = styled.div`
 const ChartHeading = styled.div`
 display: flex;
 justify-content: space-between;
+h1{
+    font-size: 30px;
+}
 .right-container{
     display: flex;
     gap: 10px;
