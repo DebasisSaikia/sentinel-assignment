@@ -4,6 +4,7 @@ const SidebarContainer = styled.div`
     background-color: #131722;
     border-radius: 12px;
     padding: 20px;
+    height: 100vh;
     .ip-address, .country{
         display: flex;
         gap: 12px;
@@ -57,7 +58,6 @@ h3{
     }
 }
 `
-
 const TextWithIcon = styled.div`
 display: flex;
 align-items: center;
